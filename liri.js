@@ -169,7 +169,7 @@ function logging(x) {
       
         // If no error is experienced, we'll log the phrase "Content Added" to our node console.
         else {
-          console.log("Content added to log");
+        //   console.log("Content added to log");
         }
       
       });
