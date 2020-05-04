@@ -9,7 +9,7 @@ Liri is a command line node application that uses multiple APIs to request infor
 [**Installation**](#installation)
 
 [**Liri Commands**](#commands)
-  * [**```concert-this```**](#```concert-this```)
+  * [**```concert-this```**](#concert-this)
   * [**```spotify-this-song```**](#```spotify-this-song```)
   * [**```movie-this```**](#```movie-this```)
   * [**```do-what-it-says```**](#```do-what-it-says```)
