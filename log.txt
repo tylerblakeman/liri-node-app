@@ -40,4 +40,10 @@ Venue Country: Germany
 Date: 06/3/2020Mon May 04 2020 10:00:36 GMT-0500concert-this queenThis artist has no shows scheduledMon May 04 2020 10:01:19 GMT-0500concert-thisyou have not entered a band nameMon May 04 2020 10:01:55 GMT-0500spotify-this-song too legit to quitArtists: MC Hammer
 Song Name: Too Legit To Quit
 Preview: null
-Album: Greatest Hits
+Album: Greatest HitsMon May 04 2020 11:00:42 GMT-0500concert-thisyou have not entered a band nameMon May 04 2020 11:01:02 GMT-0500spotify-this-songArtists: Ace of Base
+Song Name: The Sign
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=76be2d2bb9ab44c296023a69ffea0590
+Album: The SignMon May 04 2020 11:03:42 GMT-0500spotify-this-song money aint a thangArtists: Jermaine Dupri
+Song Name: Money Ain't a Thang (feat. Jay-Z)
+Preview: https://p.scdn.co/mp3-preview/ebe800f26a02af4c0ac85a98b8869636cc5939d3?cid=76be2d2bb9ab44c296023a69ffea0590
+Album: Life In 1472 (The Original Soundtrack)
