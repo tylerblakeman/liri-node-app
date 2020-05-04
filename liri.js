@@ -37,8 +37,13 @@ function requests() {
                 spotifySong('The Sign')
             }
             else {
-                input = input.join('+')
-                spotifySong(input)
+                if (typeof(input) === 'string') {
+                    spotifySong(input)
+                }
+                else {
+                    input = input.join('+')
+                    spotifySong(input)
+                    }
                 }
             break;
         case 'movie-this':
@@ -63,6 +68,7 @@ function requests() {
                 var dataArr = data.split(",")
                 input = dataArr[1];
                 request = dataArr[0];
+                console.log(request, input)
                 //checking the request and input - this can be commented in if needed
                 // console.error(`this is the new input ${input}`)
                 // console.error(`this is the new request ${request}`)
