@@ -8,14 +8,14 @@ Liri is a command line node application that uses multiple APIs to request infor
 
 [**Installation**](#installation)
 
-[**Liri Commands**](#commands)
+[**Liri Commands**](#Liri-Commands)
   * [**```concert-this```**](#concert-this)
   * [**```spotify-this-song```**](#spotify-this-song)
   * [**```movie-this```**](#movie-this)
   * [**```do-what-it-says```**](#do-what-it-says)
 
 
-**Additional Info**
+[**Additional Info**](#Additional-Info)
   * [**APIs Used**](#APIs-Used)
   * [**Node Modules**](#Node-Modules)
 
@@ -38,6 +38,8 @@ Liri is a command line node application that uses multiple APIs to request infor
     SPOTIFY_SECRET=your-spotify-secret
     ```
 5. In your terminal navigate to the liri-node-app folder where you will be able to execute the commands below.
+
+[Table of Contents](#Table-of-Contents)
 ## Liri Commands
 There are 4 commands that work for Liri. 
 * ```concert-this```**```<artist/band name>```**
@@ -45,6 +47,7 @@ There are 4 commands that work for Liri.
 * ```movie-this```**```<movie name>```**
 * ```do-what-it-says```
 
+[Table of Contents](#Table-of-Contents)
 ## Command Usage #
 After navigating to the folder where liri has been cloned you can enter ```node liri.js <command>```
 
@@ -169,15 +172,19 @@ application returns:
     Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=76be2d2bb9ab44c296023a69ffea0590
     Album: The Hits--Chapter One
 
-## APIs Used ##
+[Table of Contents](#Table-of-Contents)
+## Additional Info ##
+### APIs Used ###
 
 This application uses the following APIs:
 * [Bands In Town](https://artists.bandsintown.com/support/public-api)
 * [Spotify](https://developer.spotify.com/documentation/web-api/)
 * [OMDB](http://www.omdbapi.com/)
 
-## Node Modules ##
+### Node Modules ###
 This application uses the following Node Modules:
 * [moment](https://www.npmjs.com/package/moment)
 * [dotenv](https://www.npmjs.com/package/dotenv)
 * [axios](https://www.npmjs.com/package/axios)
+
+[Table of Contents](#Table-of-Contents)
