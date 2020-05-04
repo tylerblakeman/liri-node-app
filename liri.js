@@ -8,7 +8,6 @@ var dotenv = require("dotenv");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var request = process.argv[2]
-var now = moment();
 var input
 var message;
 
@@ -90,6 +89,7 @@ function concertSearch(x){
     //bands with no results will display the no shows console.log
     else {
         message = 'This artist has no shows scheduled';
+        console.log(message)
         logging();
     }
     })
@@ -154,7 +154,7 @@ function movieSearch(x) {
 }
 
 function logging(x) {
-    fs.appendFile("./log.txt", `\r${moment()}\r${message}`, function(err) {
+    fs.appendFile("./log.txt", `\r${moment()}\r${process.argv.slice(2).join(" ")}\r${message}`, function(err) {
 
         // If an error was experienced we will log it.
         if (err) {
