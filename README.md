@@ -1,6 +1,6 @@
 <div align ="center"><h1>liri-node-app</h1></div>
 
-Liri is a command line node application that uses multiple APIs to request information from OMDB, Spotify, and Bands in your town. Commands are entered as an argument while using liri.\s\s
+Liri is a command line node application that uses multiple APIs to request information from OMDB, Spotify, and Bands In Town. Commands are entered as an argument while using node to execute Liri and responses are logged to the console.
 
 ## Table of Contents
 
